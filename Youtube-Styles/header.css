@@ -59,7 +59,7 @@
    border-color: rgb(204, 204, 204);
    border-radius: 0%;
    font-family: Roboto, Arial, sans-serif;
-   height: 34px;
+   height: 33px;
    border-style: solid;
    box-shadow: 1px 0px 1px rgb(204, 204, 204);
    width:0;
@@ -149,5 +149,6 @@
 .header-link:hover .notification-c {
   opacity: 1;
 }
+
 
 
