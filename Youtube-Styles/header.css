@@ -1,0 +1,153 @@
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: top;
+  position: fixed;
+  background-color: white;
+  height: 10px;
+  top: 0px;
+  padding-right: 30px;
+  padding-left: 10px;
+  padding-top: 10px;
+  left: 0px;
+  right:0px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgb(238, 234, 234);
+  height: 50px;
+  z-index: 1000;
+}
+
+.first-sec {
+  display: flex;
+  align-items: top;
+  width: 250px;
+}
+.mid-sec {
+  display: flex;
+  flex: 1;
+  align-items: top;
+  max-width: 500px;
+}
+
+.last-sec {
+  display: flex;
+  justify-content: flex-end;  
+  flex-shrink: 0;
+  width: 250px;
+  gap: 20px;                   
+  padding-top: 5px;            
+}
+
+.hamburger{
+  height: 40px;
+  width: 23px;
+  margin-left: 15px;
+  margin-right: 25px;
+  cursor: pointer;
+}
+.youtube{
+  height: 40px;
+  width: 92px;
+  cursor: pointer;
+}
+.Search-bar{
+   flex: 1;
+   max-width: 350px;
+   border-color: rgb(204, 204, 204);
+   border-radius: 0%;
+   font-family: Roboto, Arial, sans-serif;
+   height: 34px;
+   border-style: solid;
+   box-shadow: 1px 0px 1px rgb(204, 204, 204);
+   width:0;
+}
+.Search-bar::placeholder{
+  font-size: 15px;
+  padding-left: 10px;
+}
+.search-btn{
+  height:39px;
+  width:63px;
+  border-color: rgb(204, 204, 204);
+  border-style: solid;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.search-icon{
+  padding-top: 3px;
+  width: 25px;
+  cursor: pointer;
+}
+
+.mic-btn {
+  position: relative;
+  border-radius: 25px;
+  height: 40px;
+  width: 40px;
+  background-color: rgb(248, 245, 245);
+  border: none;
+  cursor: pointer;
+}
+.mic-img{
+  width: 23px;
+}
+
+.create,
+.apps,
+.notification {
+  margin-top: 5px;
+  margin-right: 5px;
+  height: 24px;
+  width: 25px;
+  background-color: white;
+  cursor: pointer;
+}
+.apps{
+  background-color: white;
+  cursor: pointer;
+}
+.channel{
+  margin-top: 5px;
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.search-btn, .header-link{
+   position: relative;
+}
+.mic-btn .mic-c,
+.search-btn .search-c, 
+.header-link .create-c,
+.header-link .apps-c,
+.header-link .notification-c {
+  position: absolute;
+  background-color: rgb(122, 119, 119);
+  color: white;
+  font-family: Roboto, Arial, sans-serif;
+  border-radius: 2px;
+  margin-top: 45px;
+  left: 2px;
+  height: 20px;
+  width: max-content;
+  min-width: 55px;
+  padding: 6px 8px;
+  font-size: 12px;
+  opacity: 0;
+  transition: opacity 0.2s;
+  pointer-events: none;
+  white-space: nowrap;
+  z-index: 500;
+}
+.mic-btn:hover .mic-c ,
+.search-btn:hover .search-c,
+.header-link:hover .create-c,
+.header-link:hover .apps-c,
+.header-link:hover .notification-c {
+  opacity: 1;
+}
+
+

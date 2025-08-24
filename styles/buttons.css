@@ -1,0 +1,61 @@
+                .Subscribe-button{
+                    background-color: rgb(200, 0, 0);
+                    color: white;
+                    border: none;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    border-radius: 2.5px;
+                    cursor: pointer;
+                    margin-right: 10px;
+                    vertical-align: top;
+
+                }
+                .Subscribe-button:hover{
+                    background-color: rgba(104, 88, 88, 0.555);
+                    color :red;
+                }
+                .Subscribe-button:active{
+                    opacity:0.3;
+                }
+                .Join-button{
+                    background-color: white;
+                    border-color: rgba(0, 140, 255, 0.705);
+                    border-style: solid;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                    padding-top: 9px;
+                    padding-bottom: 9px;
+                    border-radius:2.5px;
+                    color : rgba(14, 86, 219, 0.712);
+                    cursor: pointer;
+                    margin-right: 10px;
+                    vertical-align: top;
+                }
+                .Join-button:hover{
+                    background-color: rgb(137, 191, 241);
+                    color: white;
+                    transition: 0.15s;
+                }
+                .Join-button:active{
+                    opacity:0.2;
+                }
+                .Twitter-button{
+                    background-color: rgb(7, 117, 219);
+                    color: white;
+                    font-weight: bold;
+                    text-size-adjust: bold;
+                    border-radius: 20px;
+                    border : rgb(3, 95, 182);
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    cursor: pointer;
+                    transition: 0.75s;
+                }
+                .Twitter-button:hover{
+                    box-shadow: 3px 5px 10px rgb(90, 86, 86);
+                
+                }
